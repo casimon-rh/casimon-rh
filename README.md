@@ -5,14 +5,6 @@
 - name: "Carlos Simón, about"
   hosts: rhel,arch,macos
   become: yes
-  vars:
-    tech_skills:
-      - Red Hat Openshift + K8s ☸️
-      - Ansible + Terraform 🅰️
-      - Java + Spring(Boot) Quarkus 🍃
-      - Javascript + React Vue Angular ⚛️
-      - Python + Flask 🐍
-      - C# + ASP MVC 🪟
   tasks:
     - name: 'Abstract'
       set_fact:
@@ -27,5 +19,11 @@
     - name: 'Display skills'
       debug:
         msg: "✅ {{ item }}"
-      loop: "{{ tech_skills }}"
+      loop:
+        - Red Hat Openshift + K8s ☸️
+        - Ansible + Terraform 🅰️
+        - Java + Spring(Boot) Quarkus 🍃
+        - Javascript + React Vue Angular ⚛️
+        - Python + Flask 🐍
+        - C# + ASP MVC 🪟
 ```
