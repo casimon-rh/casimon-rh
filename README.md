@@ -19,7 +19,7 @@
         abstract: >
           Looking forward to delivering 📩 quality experiences and solutions, 
           to advocate containers 📦, cloud ☁️ and open-source 📖 adoptions.
-          My priority is never to stop learning 🎓."
+          My priority is never to stop learning 🎓.
     - name: 'Current employment'
       include_role:
         name: Middleware_Consultant
