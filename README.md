@@ -2,13 +2,16 @@
 
 ```yaml
 ---
-- name: "Carlos Simón, about"
-  hosts: rhel,arch,macos
+- name: "Carlos Simón, about me:"
+  hosts: rhel,arch,macos,coreos
   become: yes
+  vars:
+    main_cert:
+      RHCA: 200-037-877
   tasks:
     - name: 'Abstract'
       set_fact:
-        abstract: >
+        abstract: >-
           Looking forward to delivering 📩 quality experiences and solutions, 
           to advocate containers 📦, cloud ☁️ and open-source 📖 adoptions.
           My priority is never to stop learning 🎓.
