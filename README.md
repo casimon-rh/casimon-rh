@@ -7,11 +7,11 @@
   become: yes
   vars:
     main_cert:
-      "RHCA lv II": https://rhtapps.redhat.com/verify/?certId=200-037-877
+      "RHCA lv IV": https://rhtapps.redhat.com/verify/?certId=200-037-877
   tasks:
     - name: 'Current employment'
       include_role:
-        name: Middleware_Consultant
+        name: Sr_Middleware_Consultant
         tasks_from: Red_Hat.yml
     - name: 'Abstract'
       set_fact:
