@@ -7,7 +7,7 @@
   become: yes
   vars:
     main_cert:
-      "RHCA lv IV": https://rhtapps.redhat.com/verify/?certId=200-037-877
+      "RHCA lv V": https://rhtapps.redhat.com/verify/?certId=200-037-877
   tasks:
     - name: 'Current employment'
       include_role:
