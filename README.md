@@ -6,8 +6,10 @@
   hosts: rhel,arch,macos,coreos
   become: yes
   vars:
-    main_cert:
+    main_certs:
       "RHCA lv V": https://rhtapps.redhat.com/verify/?certId=200-037-877
+    check_me_on:
+      "credly": https://www.credly.com/users/casimon-rh/badges
   tasks:
     - name: 'Current employment'
       include_role:
