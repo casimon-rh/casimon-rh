@@ -14,7 +14,7 @@
     - name: 'Current employment'
       include_role:
         name: Sr_Middleware_Consultant
-        tasks_from: Red_Hat.yml
+        tasks_from: Red_Hat_since_Oct_2019.yml
     - name: 'Abstract'
       set_fact:
         abstract: >-
