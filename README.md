@@ -7,7 +7,7 @@
   become: yes
   vars:
     main_certs:
-      "RHCA lv V": https://rhtapps.redhat.com/verify/?certId=200-037-877
+      "RHCA lv VI": https://rhtapps.redhat.com/verify/?certId=200-037-877
     check_me_on:
       "credly": https://www.credly.com/users/casimon-rh/badges
   tasks:
