@@ -7,7 +7,7 @@
   become: yes
   vars:
     main_certs:
-      "RHCA lv XIII": https://rhtapps.redhat.com/verify/?certId=200-037-877
+      "RHCA lv XIV": https://rhtapps.redhat.com/verify/?certId=200-037-877
     check_me_on:
       "credly": https://www.credly.com/users/casimon-rh/badges
   tasks:
@@ -25,7 +25,7 @@
       debug:
         msg: "✅ {{ item }}"
       loop:
-        - Docker + Openshift + K8s ☸️
+        - Docker + Podman + Openshift + K8s ☸️
         - Ansible + Terraform 🅰️
         - Java + Spring(Boot) Quarkus 🍃
         - JavaScript + Node + React Vue Angular ⚛️
