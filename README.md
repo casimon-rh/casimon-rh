@@ -34,3 +34,9 @@
         - Kotlin + Android 📱
         - AWS + Azure + GCP ☁️
 ```
+![](https://github-readme-stats.vercel.app/api?username=casimon-rh&show_icons=true&theme=github_dark_dimmed&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage)
+![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=casimon-rh&theme=nord_dark)
+![](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=casimon-rh&theme=nord_dark)
+![](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=casimon-rh&theme=nord_dark)
+![](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=casimon-rh&theme=nord_dark)
+![](https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=casimon-rh&theme=nord_dark)
